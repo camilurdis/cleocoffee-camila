@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0; }
+
+
+.header-container {
+    color: aliceblue;
+    background-color: #F06926 ;
+    display: flex;
+    justify-content: center;
+     
+    
+}
+.encabezado {
+    border: 10px solid navajowhite;
+    margin: 5%;
+    text-align: center;
+    font-size: 40px;
+}
+.contenedor-imagenes {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 100px;
+    margin: 50px auto;
+}
+.box:hover {
+    transform: scale(2);
+}
+.box-1:hover{
+    transform: scale(2);
+
+}
+.box-2:hover{
+    transform: scale(2);
+}
+
+
+.imagenes-item{
+    width: 500px;
+    height: 350px;
+    margin-bottom: 30px;
+    object-fit: cover;
+    padding: 10%;
+    transition: all 2s;
+}
+.icono-container {
+    position: fixed;
+    right: 60px;
+    bottom: 20px;
+    width: 60px;
+    
+}
+.footer-container { 
+    color: aliceblue;
+    background-color: #F06926 ;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;    
+}
+.footer {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.footer-item {
+    width: 60px;
+}
+/* Productos.html */
+.carousel-item {
+    height: 450px;
+    width: 450px;
+}
+.carousel slide {
+    height: 450px;
+    width: 450px;
+}
+
+
+/* Sucursales.html */
+
+.franquicias-section {
+    margin: 70px;
+    border: 10px solid navajowhite;
+    margin: 5%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.titulo-franquicias {
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+font-size: 40px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: black;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;
+}
+
+.parrafo-franquicias{
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+font-size: 20px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: rgb(71, 67, 67);
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;
+margin: 20px;
+
+}
+
+.sucursales-maps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sucursal-container {
+    grid-template-rows: 200px 200px 200px 200px;
+}
+.sucursal-img {
+    margin: 40px;
+   
+}
+
+.parrafo-img {
+margin: 5px;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+font-size: 15px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: rgb(71, 67, 67);
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;
+
+}
+
+/* Nosotros.html */
+.imagen-portada {
+    width: 100%;
+    height: 300px;
+}
+
+.titulos-item, .titulo-item1, .titulo-item2, .titulo-item3 {
+border: 4px solid black;
+margin: 30px;
+padding: 20px;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+font-size: 18px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: rgb(71, 67, 67);
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;
+}
+
+
+.parrafo-item { 
+margin: 16px;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+font-size: 15px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: rgb(71, 67, 67);
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;
+
+}
